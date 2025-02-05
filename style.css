@@ -230,6 +230,9 @@ footer {
   padding-top: 1rem;
   border-top: 1px solid #555;
 }
+.about {
+  padding-left: 5px;
+}
 .copy {
   text-align: center;
   padding: 10px;
