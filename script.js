@@ -1,4 +1,4 @@
-AOS.init();
+
 
 document.addEventListener("DOMContentLoaded", () => {
     const burger = document.querySelector(".burger")
@@ -66,4 +66,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // Set initial background and start interval
   changeBackground();
   setInterval(changeBackground, 4000);  
+
+  AOS.init();
 
