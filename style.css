@@ -88,7 +88,7 @@ h3 {
 }
 
 .hero {
-  background-image: url("/images/marble-platform-front-city-skyline.jpg");
+  background-image: url("/images/contractor.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -243,57 +243,3 @@ footer {
   padding: 10px;
 }
 
-@media screen and (max-width: 768px) {
-  .nav-links {
-    position: absolute;
-    right: 0px;
-    height: 92vh;
-    top: 8vh;
-    background-color: var(--white);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in;
-  }
-
-  .nav-links li {
-    opacity: 0;
-  }
-
-  .burger {
-    display: block;
-  }
-}
-
-.nav-active {
-  transform: translateX(0%);
-}
-
-@keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
-.headings {
-  font-size: 3rem;
-  font-weight: bold;
-
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-.hero {
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  transition: opacity 2s ease-in-out;
-  opacity: 0;
-}
